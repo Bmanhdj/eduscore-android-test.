@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+:root { font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172b40; background: #eef3f8; }
+body { margin: 0; min-height: 100vh; }
+.shell { width: min(100% - 32px, 620px); margin: 0 auto; padding: 36px 0 24px; }
+.brand-mark { width: 54px; height: 54px; display: grid; place-items: center; border-radius: 16px; background: #123b63; color: white; font-size: 30px; font-weight: 800; box-shadow: 0 8px 22px #123b6330; }
+.eyebrow { margin: 28px 0 8px; color: #47749b; font-size: 11px; letter-spacing: .16em; font-weight: 800; }
+h1 { margin: 0; color: #123b63; font-size: clamp(38px, 9vw, 54px); letter-spacing: -.04em; }
+.subtitle { margin: 4px 0 18px; color: #63788b; }
+.status { display: inline-flex; align-items: center; gap: 9px; padding: 9px 13px; border-radius: 99px; background: #e0f4e9; color: #17633b; font-size: 13px; font-weight: 650; }
+.dot { width: 8px; height: 8px; border-radius: 50%; background: #24a15a; }
+.status.offline { background: #fff0d9; color: #885400; }
+.status.offline .dot { background: #d58a16; }
+.card { margin-top: 22px; padding: 22px; border: 1px solid #dce5ed; border-radius: 18px; background: white; box-shadow: 0 8px 28px #193b5710; }
+h2 { margin: 0 0 10px; color: #173e62; font-size: 20px; }
+p, li { line-height: 1.55; color: #52677a; }
+label { display: block; margin: 20px 0 8px; color: #263e53; font-size: 14px; font-weight: 700; }
+textarea { width: 100%; padding: 12px; resize: vertical; border: 1px solid #cbd8e3; border-radius: 10px; font: inherit; }
+button { width: 100%; margin-top: 12px; padding: 13px 16px; border: 0; border-radius: 10px; background: #123b63; color: white; font-size: 15px; font-weight: 750; }
+.hint { min-height: 20px; margin-bottom: 0; color: #17633b; font-size: 13px; }
+.secondary { background: #fafdff; }
+.warning { margin-top: 18px; padding: 12px; border-radius: 10px; background: #fff5e7; color: #79500d; font-size: 13px; }
+footer { padding: 24px 4px 0; color: #8293a2; text-align: center; font-size: 12px; }
